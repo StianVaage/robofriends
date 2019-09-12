@@ -8,4 +8,6 @@ import { robots } from "./robots";
 
 ReactDOM.render(<CardList robots={robots} />, document.getElementById("root"));
 
+// Replace data with fake data
+
 serviceWorker.unregister();
